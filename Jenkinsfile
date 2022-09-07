@@ -4,6 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'i want to build'
+        git(url: 'https://github.com/balkrushna4645/Oceanblue.git', branch: 'main')
       }
     }
 
